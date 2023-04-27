@@ -10,6 +10,6 @@ https://hisplayer.github.io/UnrealWindows-SDK/#/
 
 To get a demo of our latest Unreal Video Player SDK for Windows, contact us here.
 
-* https://www.hisplayer.com/unreal-player-sdk
+* [Request demo](https://hisplayer.com/unreal-player-sdk/)
 
 * contact@hisplayer.com
