@@ -64,4 +64,41 @@ Use the **HISPlayer API** to add your own implementation.
 <img src="./images/sample.png">
 </p>
 
+## Disable Anti-Aliasing
+If you are experiencing a ghosting effect on the stream, then you will need to disable the anti-aliasing effect on your project. 
+To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > Default Settings > Anti-Aliasing Method** and set it to **None**.
 
+<p align="center">
+<img src="./images/AntiAliasing.png">
+</p>
+
+## Packaging the project
+In order to package the project, you need to make sure that **Your_Project.uproject** file has been correctly updated on the **“Plugins”** field:
+
+<p align="center">
+<img src="./images/PluginUproject.png">
+</p>
+
+You can update this file manually, or by clicking on the Update button when this message appears when opening the project with the plugin installed.
+
+<p align="center">
+<img src="./images/Update.png">
+</p>
+
+Depending on the Unreal version, it is also possible that you need to generate a visual studio project, if you are working on a Blueprint project.
+
+Finally, after packaging the project, you will need to create a new folder called Plugins on the Your_BuildRootDirectory > Your_Project folder, an paste there the HISPlayer folder plugin (similar to the Import Package step)
+
+<p align="center">
+<img src="./images/Build.png">
+</p>
+
+## Updating the SDK
+
+To update a HISPlayer SDK of a previous version, please follow these steps:
+* Go to your Root project folder > Plugins and delete the HISPlayer folder.
+* Paste your new HISPlayer SDK folder inside the Plugins folder.
+* Go again to your Root project folder and delete the Binaries and Intermediate folders.
+* Execute Your_Project.uproject file.
+
+Make sure that your project is closed while doing this process.
