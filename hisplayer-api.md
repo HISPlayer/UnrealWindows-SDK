@@ -26,25 +26,9 @@ The following public APIs are provided by **HISPlayerManager**.
   * **OnStatusChanged**: The HISPlayer Status has changed.
   * **OnTrackChanged**: The track of the stream has changed. 
   * **OnError**: The track of the stream has changed. 
-  * **OnTimedMetadata**: A new metadata element from the stream has been received.
 <p align="center">
 <img src="./images/blueprint-example.png">
 </p>
-
-* **struct FHISPlayerTimedMetadata**: The different ID3 metadata types that the player can receive.
-  * **TimeStamp** 
-  * **Title** 
-  * **Album** 
-  * **Date**
-  * **Genre**
-  * **Artist**
-  * **Track Number**
-  * **Session Info**
-  * **Year**
-  * **Lyric**
-  * **Private Frame**
-  * **Comment**
-  * **Text**
 
 ## Functions
 Use the following UFunctions in your blueprint or script to make your custom HISPlayer implementation.
