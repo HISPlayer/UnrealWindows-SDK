@@ -2,7 +2,7 @@
 
 ### Version 1.0.0 
 ##### May 24, 2023
-- [Add] Support resolution changing up to 4K.
+- [Add] Support resolution up to 4K.
 - [Changed] HISPlayer SDK size is reduced.
 
 ### Version 0.1.0
