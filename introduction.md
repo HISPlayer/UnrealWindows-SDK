@@ -12,11 +12,14 @@
 * HLS
 * DASH
 
-### Supported Stream Protocols:
- * MP4
+### Supported Audio Codecs:
  * AVI
  * MP3
  * WAV
+
+### Supported Video Codecs:
+* MP4
+* AVI
 
 ### Supported Unreal’s Rendering Mode: 
 * Texture
