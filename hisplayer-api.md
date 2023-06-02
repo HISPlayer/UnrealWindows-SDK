@@ -129,6 +129,6 @@ Get the Delegate Manager.
   * **Return**: Delegate manager reference.
 
 #### static FString GetExpirationDate(int streamIndex) // HISPlayer Get Expiration Date
-Get the Expiration Date.
+Get the Expiration Date of the SDK.
   * **Param1**: Stream index.
   * **Return**: Expiration date in String format.
