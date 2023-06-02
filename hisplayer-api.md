@@ -106,18 +106,23 @@ Mute or Unmute audio playback.
   * **Param1**: Stream index.
   * **Param2**: True for muting, False for unmuting.
   * **Return**: True on success, False otherwise.
-
+  
 #### static void CreateNewTexture(int streamIndex, FIntPoint resolution, UTexture2D*& outputTexture) // HISPlayer Create New Texture
  Create a new texture of a new resolution for a particular stream.
   * **Param1**: Stream index.
-	 * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
-	 * **Param3**: Result texture reference.
+  * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
+  * **Param3**: Result texture reference.
 
 #### static int GetPlaybackPosition(int streamIndex) // HISPlayer Get Playback Position
  Get the current stream playback position in miliseconds.
   * **Param1**: Stream index.
   * **Return**: Playback position.
-  
+
+#### static void EnableRendering(int streamIndex, bool enable) // HISPlayer Enable Renderer on Stream
+Use this function to enable or disable the rendering of one stream. The audio will keep playing. Can be used in single or multistream to disable the stream rendering when the stream visuals are not in the visual field of the player, in order to improve performance.
+  * **Param1**: Stream index.
+  * **Param2**: Enable or disable the rendering.
+
 #### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
   * **Param1**: Stream index.
