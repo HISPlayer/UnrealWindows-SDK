@@ -127,7 +127,7 @@ Use this function to enable or disable the rendering of one stream. The audio wi
 Get the Delegate Manager.
   * **Param1**: Stream index.
   * **Return**: Delegate manager reference.
-  
+
 #### static FString GetExpirationDate(int streamIndex) // HISPlayer Get Expiration Date
 Get the Expiration Date.
   * **Param1**: Stream index.
