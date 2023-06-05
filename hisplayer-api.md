@@ -126,11 +126,12 @@ Use this function to enable or disable the rendering of one stream. The audio wi
 #### static void SetPlaybackRate(int streamIndex, double rate) // HISPlayer Set Playback Rate
 Set the Playback Speed Rate.
   * **Param1**: Stream index.
-  * **Param2**: The speed rate of the current playback (1.0 for regular playback, 1.5 for 150% speed playback...etc)
+  * **Param2**: Playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc).
 
 #### static double GetPlaybackRate(int streamIndex) // HISPlayer Get Playback Rate
 Get the Current Playback Speed Rate.
   * **Param1**: Stream index.
+  * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc).
 
 #### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
