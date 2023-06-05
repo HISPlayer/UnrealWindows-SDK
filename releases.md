@@ -2,9 +2,9 @@
 
 ### Version 1.2.0 
 ##### June 5, 2023
-- [Add] Playback speed control support.
+- [Add] SetPlaybackRate and GetPlaybackRate APIs to control playback speed.
 - [Fixed] Fixed issue with the Seek function.
-- [Changed] Now the current playback position is retrieved in miliseconds.
+- [Fixed] The current playback position is retrieved in miliseconds.
 
 ### Version 1.1.0 
 ##### June 1, 2023
