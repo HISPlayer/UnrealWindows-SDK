@@ -108,13 +108,13 @@ Mute or Unmute audio playback.
   * **Return**: True on success, False otherwise.
   
 #### static void CreateNewTexture(int streamIndex, FIntPoint resolution, UTexture2D*& outputTexture) // HISPlayer Create New Texture
- Create a new texture of a new resolution for a particular stream.
+Create a new texture of a new resolution for a particular stream.
   * **Param1**: Stream index.
   * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
   * **Param3**: Result texture reference.
 
 #### static int GetPlaybackPosition(int streamIndex) // HISPlayer Get Playback Position
- Get the current stream playback position in miliseconds.
+Get the current stream playback position in miliseconds.
   * **Param1**: Stream index.
   * **Return**: Playback position.
 
