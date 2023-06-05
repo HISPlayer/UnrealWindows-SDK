@@ -131,7 +131,7 @@ Set the Playback Speed Rate.
 #### static double GetPlaybackRate(int streamIndex) // HISPlayer Get Playback Rate
 Get the Current Playback Speed Rate.
   * **Param1**: Stream index.
-  * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc).
+  * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc). Min value 0.0 - Max value 4.0.
 
 #### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
