@@ -122,6 +122,15 @@ Mute or Unmute audio playback.
 Use this function to enable or disable the rendering of one stream. The audio will keep playing. Can be used in single or multistream to disable the stream rendering when the stream visuals are not in the visual field of the player, in order to improve performance.
   * **Param1**: Stream index.
   * **Param2**: Enable or disable the rendering.
+  
+#### static void SetPlaybackRate(int streamIndex, double rate) // HISPlayer Set Playback Rate
+Set the Playback Speed Rate.
+  * **Param1**: Stream index.
+  * **Param2**: The speed rate of the current playback (1.0 for regular playback, 1.5 for 150% speed playback...etc)
+
+#### static double GetPlaybackRate(int streamIndex) // HISPlayer Get Playback Rate
+Get the Current Playback Speed Rate.
+  * **Param1**: Stream index.
 
 #### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
