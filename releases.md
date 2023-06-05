@@ -5,7 +5,7 @@
 - [Add] Playback speed control support.
 - [Fixed] Fixed issue with the Seek function.
 - [Changed] Now the current playback position is retrieved in miliseconds.
-- 
+
 ### Version 1.1.0 
 ##### June 1, 2023
 - [Add] Multistream support.
