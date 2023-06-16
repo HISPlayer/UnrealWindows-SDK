@@ -1,4 +1,7 @@
 # HISPlayer Unreal Windows SDK
+The most advanced video streaming player for Unreal Engine supporting local, VOD and Live contents. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Windows.
+It is fully customizable. If you require specific or advanced features, please don't hesitate to contact us at [contact@hisplayer.com](mailto:contact@hisplayer.com).
+
 
 ## Compatibility
 ### Supported Unreal Versions: 
