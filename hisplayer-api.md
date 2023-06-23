@@ -34,7 +34,7 @@ The following public APIs are provided by **HISPlayerManager**.
     * **Param1**: Stream's index. 
   * **OnTrackChanged**: The track of the stream has changed. 
     * **Param1**: Stream's index.
-  * **OnPCMDataReceived**: New PCM data has being received from the stream. This event will only be triggered after the function **StartPCMDataProcess** has been called, and will stop after **StopPCMDataProcess** is called.
+  * **OnPCMDataReceived**: New PCM data has been received from the stream. This event will only be triggered after the function **StartPCMDataProcess** has been called, and will stop after **StopPCMDataProcess** is called.
     * **Param1**: PCM Data as TArray\<float>.
     * **Param1**: Timestamp associated to the data.
     * **Param1**: Stream's index.  
@@ -148,12 +148,12 @@ Set Playback Volume.
   * **Param1**: Stream index.
 
 #### static int StartPCMDataProcess(int streamIndex) // HISPlayer Start PCM Data Process
-Start PCM Data retrieval process.
+Start PCM data retrieval process.
   * **Param1**: Stream index.
   * **Return**: -1 for start failed.
 
 #### static int StopPCMDataProcess(int streamIndex) // HISPlayer Stop PCM Data Process
-Stops the PCM Data retrieval process. Please use this function before releasing.
+Stops the PCM data retrieval process. Please use this function before releasing.
   * **Param1**: Stream index.
   * **Return**: -1 for start failed.
 
