@@ -94,6 +94,21 @@ Finally, after packaging the project, you will need to create a new folder calle
 <img src="./images/Build.png">
 </p>
 
+## Setting up PCM Audio Data
+It is possible to retrieve the PCM data of a stream at runtime. To start the retreival process, call the **HISPlayer Start PCM Data Process** function. To stop the process, call the **HISPlayer Stop PCM Data Process**. It is important to stop the process before releasing the player. 
+
+<p align="center">
+<img src="./images/PCM.png">
+</p>
+
+Every time new PCM data is being received, it is possible to get it in a **TArray\<float>** format, along with the stream's timestamp, by using the **On PCM Data Received Event**.
+
+<p align="center">
+<img src="./images/PCMevent.png">
+</p>
+
+Getting the PCM data of a stream is computationally expensive, so its recomended to use it only on a single stream, event though this functionality is compatible with multistream. 
+
 ## Updating the SDK
 
 To update a HISPlayer SDK of a previous version, please follow these steps:
