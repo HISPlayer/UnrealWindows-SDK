@@ -1,14 +1,14 @@
 # HISPlayer Unreal Windows SDK Release Notes
 ### Version 1.3.0 
 ##### June 23, 2023
-- [Added] Set Volume API.
-- [Added] Set Max Bitrate API.
-- [Added] Get Available Bitrate API.
-- [Added] Get Current Bitrate API.
-- [Added] Start PCM Data Process API.
-- [Added] Stop PCM Data Process API.
-- [Added] On PCM Data Received Event.
-- [Improvement] Optimized Get Total Time function.
+- [**Added**] Set Volume API.
+- [**Added**] Set Max Bitrate API.
+- [**Added**] Get Available Bitrate API.
+- [**Added**] Get Current Bitrate API.
+- [**Added**] Start PCM Data Process API.
+- [**Added**] Stop PCM Data Process API.
+- [**Added**] On PCM Data Received Event.
+- [**Improvement**] Optimized Get Total Time function.
   
 ### Version 1.2.0 
 ##### June 5, 2023
