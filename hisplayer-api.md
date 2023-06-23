@@ -148,12 +148,12 @@ Set Playback Volume.
   * **Param1**: Stream index.
 
 #### static int StartPCMDataProcess(int streamIndex) // HISPlayer Start PCM Data Process
-Start PCM Data recolection Process.
+Start PCM Data retrieval process.
   * **Param1**: Stream index.
   * **Return**: -1 for start failed.
 
 #### static int StopPCMDataProcess(int streamIndex) // HISPlayer Stop PCM Data Process
-Stops the PCM Data recolection Process. Please use this function before releasing.
+Stops the PCM Data retrieval process. Please use this function before releasing.
   * **Param1**: Stream index.
   * **Return**: -1 for start failed.
 
