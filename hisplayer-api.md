@@ -27,12 +27,17 @@ The following public APIs are provided by **HISPlayerManager**.
   * **OnEndContent**: The content ends.
     * **Param1**: Stream's index.
   * **OnBuffering (float percentage)**: The content is buffering.
-    * **Param1**: Stream's index. 
-    * **Param2**: The current percentage of the buffering process.
+    * **Param1**: The current percentage of the buffering process.
+    * **Param2**: Stream's index. 
   * **OnStatusChanged**: The HISPlayer Status has changed.
+    * **Param1**: The stream's status. 
     * **Param1**: Stream's index. 
   * **OnTrackChanged**: The track of the stream has changed. 
-    * **Param1**: Stream's index. 
+    * **Param1**: Stream's index.
+  * **OnPCMDataReceived**: New PCM data has being received from the stream. This event will only be triggered after the function **StartPCMDataProcess** has been called, and will stop after **StopPCMDataProcess** is called.
+    * **Param1**: PCM Data as TArray\<float>.
+    * **Param1**: Timestamp associated to the data.
+    * **Param1**: Stream's index.  
   * **OnError**: The track of the stream has changed.
     * **Param1**: Stream's index. 
 <p align="center">
@@ -137,6 +142,20 @@ Get the current playback speed rate.
 Get the Delegate Manager.
   * **Param1**: Stream index.
   * **Return**: Delegate manager reference.
+
+#### static int SetVolume(int streamIndex, float volume) // HISPlayer HISPlayer Set Volume
+Set Playback Volume.
+  * **Param1**: Stream index.
+
+#### static int StartPCMDataProcess(int streamIndex) // HISPlayer Start PCM Data Process
+Start PCM Data recolection Process.
+  * **Param1**: Stream index.
+  * **Return**: -1 for start failed.
+
+#### static int StopPCMDataProcess(int streamIndex) // HISPlayer Stop PCM Data Process
+Stops the PCM Data recolection Process. Please use this function before releasing.
+  * **Param1**: Stream index.
+  * **Return**: -1 for start failed.
 
 #### static FString GetExpirationDate(int streamIndex) // HISPlayer Get Expiration Date
 Get the Expiration Date of the SDK.
