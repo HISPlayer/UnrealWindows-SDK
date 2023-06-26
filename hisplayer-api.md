@@ -88,7 +88,7 @@ Stop the video and, next time it's played, it will begin from start.
   * **Param1**: Stream index.
 
 #### static void Close(int streamIndex) // HISPlayer Close
-Must be called for closing and releasing HISPlayer. It is recommended to pause or stop the streaming before closing.
+Must be called for closing and releasing HISPlayer.
   * **Param1**: Stream index.
 
 #### static void Seek(int streamIndex) // HISPlayer Seek
