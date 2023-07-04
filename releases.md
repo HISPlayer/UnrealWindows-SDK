@@ -1,7 +1,7 @@
 # HISPlayer Unreal Windows SDK Release Notes
 ### Version 1.4.0 
 ##### July 03, 2023
-- [**Improvement**] Improvement of software robustness
+- [**Improvement**] Improvement of software robustness.
 ### Version 1.3.0 
 ##### June 23, 2023
 - [**Added**] Set Volume API.
