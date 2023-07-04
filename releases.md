@@ -11,8 +11,7 @@
 - [**Added**] Start PCM Data Process API.
 - [**Added**] Stop PCM Data Process API.
 - [**Added**] On PCM Data Received Event.
-- [**Improvement**] Optimized Get Total Time function.
-  
+
 ### Version 1.2.0 
 ##### June 5, 2023
 - [**Added**] SetPlaybackRate and GetPlaybackRate APIs to control playback speed.
