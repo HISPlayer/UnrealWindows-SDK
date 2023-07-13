@@ -12,8 +12,8 @@ It is fully customizable. If you require specific or advanced features, please d
 * 5.2
 
 ### Supported Stream Protocols: 
-* HLS
-* DASH
+* HLS (Live & VOD)
+* DASH (VOD)
 
 ### Supported Audio Codecs:
  * AVI
