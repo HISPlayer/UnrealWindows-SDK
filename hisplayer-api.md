@@ -31,13 +31,13 @@ The following public APIs are provided by **HISPlayerManager**.
     * **Param2**: Stream's index. 
   * **OnStatusChanged**: The HISPlayer Status has changed.
     * **Param1**: The stream's status. 
-    * **Param1**: Stream's index. 
+    * **Param2**: Stream's index. 
   * **OnTrackChanged**: The track of the stream has changed. 
     * **Param1**: Stream's index.
   * **OnPCMDataReceived**: New PCM data has been received from the stream. This event will only be triggered after the function **StartPCMDataProcess** has been called, and will stop after **StopPCMDataProcess** is called.
     * **Param1**: PCM Data as TArray\<float>.
-    * **Param1**: Timestamp associated to the data.
-    * **Param1**: Stream's index.  
+    * **Param2**: Timestamp associated to the data.
+    * **Param3**: Stream's index.  
   * **OnError**: The track of the stream has changed.
     * **Param1**: Stream's index. 
 <p align="center">
