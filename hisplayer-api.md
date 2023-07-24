@@ -123,7 +123,7 @@ Get the current stream playback position in miliseconds.
   * **Param1**: Stream index.
   * **Return**: Playback position.
 
-#### static void EnableRendering(int streamIndex, bool enable) // HISPlayer Enable Renderer on Stream
+#### static void EnableRendering(int streamIndex, bool enable) // HISPlayer Enable Render on Stream
 Use this function to enable or disable the rendering of one stream. The audio will keep playing. Can be used in single or multistream to disable the stream rendering when the stream visuals are not in the visual field of the player, in order to improve performance.
   * **Param1**: Stream index.
   * **Param2**: Enable or disable the rendering.
