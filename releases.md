@@ -1,4 +1,11 @@
 # HISPlayer Unreal Windows SDK Release Notes
+### Version 1.5.0 
+##### August 04, 2023
+- [**Added**] Log level API.
+- [**Added**] Added License Key field.
+- [**Added**] Get Total Time API.
+- [**Improvement**] Log system improvement.
+- [**Improvement**] Playback Properties functionalities.
 ### Version 1.4.0 
 ##### July 03, 2023
 - [**Improvement**] Improvement of software robustness.
