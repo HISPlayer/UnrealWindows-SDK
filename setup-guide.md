@@ -65,6 +65,13 @@ Use the **HISPlayer API** to add your own implementation.
 <img src="./images/sample.png">
 </p>
 
+## License Key
+Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message.
+
+<p align="center">
+<img src="./images/licensekey.png">
+</p>
+
 ## Disable Anti-Aliasing
 If you are experiencing a ghosting effect on the stream, then you will need to disable the anti-aliasing effect on your project. 
 To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > Default Settings > Anti-Aliasing Method** and set it to **None**.
