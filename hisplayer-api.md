@@ -10,7 +10,7 @@ The following public APIs are provided by **HISPlayerManager**.
   * **PLAY**: The content is playing.
   * **PAUSE**: The content is paused.
    
-* **enum class HISPlayerLogLevel**: The different log levels. The log levels are accumulative, meaning that, when a higher log level is choosen, the logs of lower levels will also be displayed. For example: If Error level is choosen, only Error logs will be displayed. If Debug level is choosen, Debug, Info, Warning and Error messages will be displayed:
+* **enum class HISPlayerLogLevel**: The different log levels. The log levels are accumulative, meaning that, when a higher log level is choosen, the logs of lower levels will also be displayed. For example: If Error level is choosen, only Error logs will be displayed. If Debug level is choosen; Debug, Info, Warning and Error messages will be displayed:
   * **DEBUG**: Logs messages useful for debugging and troubleshooting purposes, typically only visible during development.
   * **INFO**: Provides general informational messages about the application's execution.
   * **WARNING**: Indicates potential issues or situations that may require attention.
