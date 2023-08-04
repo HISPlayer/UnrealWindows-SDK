@@ -9,6 +9,13 @@ The following public APIs are provided by **HISPlayerManager**.
   * **STOP**: The content is stopped.
   * **PLAY**: The content is playing.
   * **PAUSE**: The content is paused.
+   
+* **enum class HISPlayerLogLevel**: The different log levels. The log levels are accumulative, meaning that, when a higher log level is choosen, the logs of lower levels will also be displayed. For example: If Error level is choosen, only Error logs will be displayed. If Debug level is choosen, Debug, Info, Warning and Error messages will be displayed:
+  * **DEBUG**: Logs messages useful for debugging and troubleshooting purposes, typically only visible during development.
+  * **INFO**: Provides general informational messages about the application's execution.
+  * **WARNING**: Indicates potential issues or situations that may require attention.
+  * **ERROR**: Indicates critical errors that may prevent the application from functioning correctly.
+  * **NONE** : No log messages will appear.
 
 * **struct FHISPlayerPlaybackProperties**: Use these properties to change the playback’s behavior from the editor.
   * **bool bAutoplay**: The content will automatically play after buffering is complete.
@@ -136,7 +143,12 @@ Set the playback speed rate.
 #### static double GetPlaybackRate(int streamIndex) // HISPlayer Get Playback Rate
 Get the current playback speed rate.
   * **Param1**: Stream index.
-  * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc). 
+  * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc).
+
+#### static TArray<int> GetAvailablePlaybackBitrates(int streamIndex) // HISPlayer HISPlayer Get Available Playback Bitrates
+Get Available Playback Bitrates.
+  * **Param1**: Stream index.
+  * **Return**: Available Playback Bitrates in type of TArray<int>.
 
 #### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
@@ -157,8 +169,11 @@ Stops the PCM data retrieval process. Please use this function before releasing.
   * **Param1**: Stream index.
   * **Return**: -1 for start failed.
 
-#### static FString GetExpirationDate(int streamIndex) // HISPlayer Get Expiration Date
-Get the Expiration Date of the SDK.
+#### static void SetLogLevel(HISPlayerLogLevel logLevel) // HISPlayer Set Log Level
+Set the current Log Level.
+  * **Param1**: Log level.
+
+#### static void GetTotalPlaybackTime(int streamIndex) // HISPlayer Get Total Playback Time
+Set the current Log Level.
   * **Param1**: Stream index.
-  * **Return**: Expiration date in String format.
 
