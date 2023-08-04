@@ -148,7 +148,7 @@ Get the current playback speed rate.
 #### static TArray\<int> GetAvailablePlaybackBitrates(int streamIndex) // HISPlayer HISPlayer Get Available Playback Bitrates
 Get Available Playback Bitrates.
   * **Param1**: Stream index.
-  * **Return**: Available Playback Bitrates in type of TArray<int>.
+  * **Return**: Available Playback Bitrates in type of TArray\<int>.
 
 #### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
