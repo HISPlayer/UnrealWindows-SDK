@@ -66,7 +66,7 @@ Use the **HISPlayer API** to add your own implementation.
 </p>
 
 ## License Key
-Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message.
+Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message. To find this field, go to the Level Outliner and look for the HISPlayer_Blueprint actor. Then, on the Details window, look for the HISPlayer section.
 
 <p align="center">
 <img src="./images/licensekey.png">
