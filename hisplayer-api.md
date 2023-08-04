@@ -58,10 +58,11 @@ Use the following UFunctions in your blueprint or script to make your custom HIS
 Pre-initialize HISPlayer. You must call this function on BeginPlay before the SetUp.
   * **Param1**: The number of streams to instantiate.
 
-#### static void Setup(int streamIndex, UTexture2D*& outputTexture) // HISPlayer Setup
+#### static void Setup(int streamIndex, const FString& licenseKey,UTexture2D*& outputTexture) // HISPlayer Setup
 Initialize HISPlayer. It creates a texture in runtime internally.
   * **Param1**: Stream index.
-  * **Param2**: Result texture reference.
+  * **Param2**: License Key.
+  * **Param3**: Result texture reference.
 
 #### static void SetPlayBackProperties (int streamIndex, const FHISPlayerPlaybackProperties& Properties) // HISPlayer Set PlayBack Properties
 Set the playback properties.
