@@ -145,7 +145,7 @@ Get the current playback speed rate.
   * **Param1**: Stream index.
   * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc).
 
-#### static TArray<int> GetAvailablePlaybackBitrates(int streamIndex) // HISPlayer HISPlayer Get Available Playback Bitrates
+#### static TArray\<int> GetAvailablePlaybackBitrates(int streamIndex) // HISPlayer HISPlayer Get Available Playback Bitrates
 Get Available Playback Bitrates.
   * **Param1**: Stream index.
   * **Return**: Available Playback Bitrates in type of TArray<int>.
