@@ -173,7 +173,8 @@ Stops the PCM data retrieval process. Please use this function before releasing.
 Set the current Log Level.
   * **Param1**: Log level.
 
-#### static void GetTotalPlaybackTime(int streamIndex) // HISPlayer Get Total Playback Time
-Set the current Log Level.
+#### static int GetTotalPlaybackTime(int streamIndex) // HISPlayer Get Total Playback Time
+The stream's total playback time.
   * **Param1**: Stream index.
+  * **Return**: Total Playback Time.
 
