@@ -2,7 +2,7 @@
 
 ### Version 1.6.0 
 ##### August 09, 2023
-- [**Improvement**] Audio PCM data retrieval process.
+- [**Improvement**] Audio PCM data output.
 
 ### Version 1.5.0 
 ##### August 04, 2023
