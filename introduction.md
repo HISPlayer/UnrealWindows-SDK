@@ -15,12 +15,12 @@ It is fully customizable. If you require specific or advanced features, please d
 * HLS (Live & VOD)
 * DASH (VOD)
 
-### Supported Audio Codecs:
+### Supported Audio Formats:
  * AVI
  * MP3
  * WAV
 
-### Supported Video Codecs:
+### Supported Video Formats:
 * MP4
 * AVI
 
