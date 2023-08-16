@@ -159,6 +159,7 @@ Get the Delegate Manager.
 #### static int SetVolume(int streamIndex, float volume) // HISPlayer HISPlayer Set Volume
 Set Playback Volume.
   * **Param1**: Stream index.
+  * **Param2**: Must be included in the range [0.0f, 1.0f].
 
 #### static int StartPCMDataProcess(int streamIndex) // HISPlayer Start PCM Data Process
 Start PCM data retrieval process.
