@@ -5,9 +5,7 @@ It is fully customizable. If you require specific or advanced features, please d
 
 ## Compatibility
 ### Supported Unreal Versions: 
-* 4.26
 * 4.27
-* 5.0
 * 5.1
 * 5.2
 
