@@ -41,8 +41,6 @@ It is fully customizable. If you require specific or advanced features, please d
 ### Maximum Supported Resolution:
 * 2,160 x 3,840 (4K)
 
-### Multistream Support
-
 ## Unreal 5 for Windows Requirements:
 * Visual Studio 2019 v16.11.5, Visual Studio 2022
 * Windows SDK 10.0.18362
