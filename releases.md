@@ -1,4 +1,8 @@
 # HISPlayer Unreal Windows SDK Release Notes
+### Version 1.7.0 
+##### September 06, 2023
+- [**Improvement**] Rendering performance improved for all resolutions, video and streaming types.
+- [**Improvement**] Optimize the Mute property of the Playback Properties on the Unreal editor. 
 
 ### Version 1.6.0 
 ##### August 09, 2023
