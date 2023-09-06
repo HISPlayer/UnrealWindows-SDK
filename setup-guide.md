@@ -80,11 +80,18 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 <img src="./images/AntiAliasing.png">
 </p>
 
+## Default RHIs
+Make sure that the **Default RHIs** option is settled to **DirectX11**. Otherwise, go to **Edit > Project Settings > Platforms > Windows > Targeted RHIs**.
+
+<p align="center">
+<img src="./images/PluginUproject.png">
+</p>
+
 ## Packaging the project
 In order to package the project, you need to make sure that **Your_Project.uproject** file has been correctly updated on the **“Plugins”** field:
 
 <p align="center">
-<img src="./images/PluginUproject.png">
+<img src="./images/DefaultRHI.png">
 </p>
 
 You can update this file manually, or by clicking on the Update button when this message appears when opening the project with the plugin installed.
