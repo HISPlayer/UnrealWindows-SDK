@@ -12,6 +12,7 @@ It is fully customizable. If you require specific or advanced features, please d
 ### Supported Stream Protocols: 
 * HLS (Live & VOD)
 * DASH (VOD)
+  * Profile : `urn:mpeg:dash:profile:isoff-on-demand:2011`
 
 ### Supported Audio Codecs:
  * AAC
