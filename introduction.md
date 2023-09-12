@@ -35,7 +35,6 @@ It is fully customizable. If you require specific or advanced features, please d
 
 ### Supported Graphics API:
 * DirectX 11
-* Vulkan
 
 ### Maximum Supported Resolution:
 * 2,160 x 3,840 (4K)
