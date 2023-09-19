@@ -19,6 +19,9 @@ It is fully customizable. If you require specific or advanced features, please d
 
 ### Supported Video Codecs:
  * H.264
+ * H.265 / HEVC
+   * [MS HEVC codec extension](https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7) is required.
+   * Only support fMP4 container. MPEG-2 TS container is not supported.
 
 ### Supported Audio Formats:
  * AVI
@@ -37,7 +40,7 @@ It is fully customizable. If you require specific or advanced features, please d
 * DirectX 11
 
 ### Maximum Supported Resolution:
-* 2,160 x 3,840 (4K)
+* 8,192 × 4,320 (8K)
 
 ## Unreal 5 for Windows Requirements:
 * Visual Studio 2019 v16.11.5, Visual Studio 2022
