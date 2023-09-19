@@ -40,8 +40,8 @@ It is fully customizable. If you require specific or advanced features, please d
 * DirectX 11
 
 ### Maximum Supported Resolution:
-* 8,192 × 4,320 (8K)
-  * H.265/HEVC codec is required to play 8K video.
+ * 8,192 × 4,320 (8K)
+   * H.265/HEVC codec is required to play 8K video.
 
 ## Unreal 5 for Windows Requirements:
 * Visual Studio 2019 v16.11.5, Visual Studio 2022
