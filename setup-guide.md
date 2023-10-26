@@ -80,13 +80,6 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 <img src="./images/AntiAliasing.png">
 </p>
 
-## Default RHIs
-Make sure that the **Default RHIs** option is settled to **DirectX11**. Otherwise, go to **Edit > Project Settings > Platforms > Windows > Targeted RHIs**.
-
-<p align="center">
-<img src="./images/DefaultRHI.png">
-</p>
-
 ## Packaging the project
 In order to package the project, you need to make sure that **Your_Project.uproject** file has been correctly updated on the **“Plugins”** field:
 
@@ -94,34 +87,23 @@ In order to package the project, you need to make sure that **Your_Project.uproj
 <img src="./images/PluginUproject.png">
 </p>
 
-You can update this file manually, or by clicking on the Update button when this message appears when opening the project with the plugin installed.
+Package your project for the HTML5 project.
 
 <p align="center">
-<img src="./images/Update.png">
+<img src="./images/PackageHTML5.png">
 </p>
 
-Depending on the Unreal version, it is also possible that you need to generate a visual studio project, if you are working on a Blueprint project.
-
-Finally, after packaging the project, you will need to create a new folder called Plugins on the Your_BuildRootDirectory > Your_Project folder, an paste there the HISPlayer folder plugin (similar to the Import Package step)
+Once the project is packaged, go to the **HISPlayerHTML5Resources** folder inside the root HISPlayer SDK directory (**Root Project Directory > Plugins > HISPlayer > HISPlayerHTML5Resources**), copy the **/js** directory and the **HISPlayerSample.html** and paste it into your packaged project build folder.
 
 <p align="center">
-<img src="./images/Build.png">
+<img src="./images/PackageJS.png">
 </p>
 
-## Setting up PCM Audio Data
-It is possible to retrieve the PCM data of a stream at runtime. To start the retreival process, call the **HISPlayer Start PCM Data Process** function. To stop the process, call the **HISPlayer Stop PCM Data Process**. It is important to stop the process before releasing the player. 
+If you are going to use a custom HTML file for your project, you can just copy the **/js** into the packaged project build folder and include the **js/hisplayer.js** and **js/HISPlayerUnreal** files on your HTML file, like it is shown in the image below.
 
 <p align="center">
-<img src="./images/PCM.png">
+<img src="./images/IncludeJS.png">
 </p>
-
-Every time new PCM data is being received, it is possible to get it in a **TArray\<float>** format, along with the stream's timestamp, by using the **On PCM Data Received Event**.
-
-<p align="center">
-<img src="./images/PCMevent.png">
-</p>
-
-Getting the PCM data of a stream is computationally expensive, so its recomended to use it only on a single stream, event though this functionality is compatible with multistream. 
 
 ## Updating the SDK
 
