@@ -1,7 +1,7 @@
 # HISPlayer API
 
 ## Public API
-The following public APIs are provided by **HISPlayerManager**.
+The following public APIs are provided by **HISPlayerTypes**.
 
 * **enum class HISPlayerStatus**: The different status in which the stream can be settled:
   * **NONE**
