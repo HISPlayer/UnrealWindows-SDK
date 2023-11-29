@@ -44,9 +44,7 @@ The following public APIs are provided by **HISPlayerTypes**.
   * **OnPCMDataReceived**: New PCM data has been received from the stream. This event will only be triggered after the function **StartPCMDataProcess** has been called, and will stop after **StopPCMDataProcess** is called.
     * **Param1**: PCM Data as TArray\<float>.
     * **Param2**: Timestamp associated to the data.
-    * **Param3**: Stream's index.  
-  * **OnError**: The track of the stream has changed.
-    * **Param1**: Stream's index. 
+    * **Param3**: Stream's index.   
 <p align="center">
 <img src="./images/blueprint-example.png">
 </p>
