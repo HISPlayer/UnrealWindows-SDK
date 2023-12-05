@@ -4,12 +4,14 @@ It is fully customizable. If you require specific or advanced features, please d
 
 
 ## Compatibility
-### Supported Unreal Versions: 
+### Supported Unreal Versions : 
   * 4.27
   * 5.0.3
   * 5.1.1
   * 5.2.1
   * 5.3.2
+
+Only official Unreal versions from Epic Games Store are supported. Custom github source code is not supported.
 
 ### Supported Stream Protocols: 
   * HLS (Live & VOD)
