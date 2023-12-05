@@ -11,7 +11,7 @@ It is fully customizable. If you require specific or advanced features, please d
   * 5.2.1
   * 5.3.2
 
-Only official Unreal versions from Epic Games Store are supported. Custom github source code is not supported.
+Only official Unreal versions from Epic Games Store are supported. Custom source code version is not supported.
 
 ### Supported Stream Protocols: 
   * HLS (Live & VOD)
