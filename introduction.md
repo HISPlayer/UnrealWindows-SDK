@@ -6,10 +6,10 @@ It is fully customizable. If you require specific or advanced features, please d
 ## Compatibility
 ### Supported Unreal Versions : 
   * 4.27
-  * 5.0.3
-  * 5.1.1
-  * 5.2.1
-  * 5.3.2
+  * 5.0
+  * 5.1
+  * 5.2
+  * 5.3
 
 Only official Unreal versions from Epic Games Store are supported. Custom source code version is not supported.
 
