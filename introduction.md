@@ -42,6 +42,7 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 
 ### Supported Graphics API:
   * DirectX 11
+  * DirectX 12
 
 ### Maximum Supported Resolution:
   * 8,192 × 4,320 (8K)
