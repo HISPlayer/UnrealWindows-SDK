@@ -1,4 +1,8 @@
 # HISPlayer Unreal Windows SDK Release Notes
+### Version 1.9.0 
+##### December 19, 2023
+- [**Added**] DirectX12 support.
+- [**Added**] Remove watermark from editor.
 
 ### Version 1.8.0 
 ##### December 04, 2023
