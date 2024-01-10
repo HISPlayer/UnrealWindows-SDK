@@ -25,7 +25,7 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
   * H.264
   * H.265 / HEVC
     * [MS HEVC codec extension](https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7) is required.
-    * Only support fMP4 container. MPEG-2 TS container is not supported.
+    * Only support stream with fMP4 container. MPEG-2 TS container is not supported.
 
 ### Supported Audio Formats:
   * AVI
