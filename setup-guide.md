@@ -102,7 +102,7 @@ You can update this file manually, or by clicking on the Update button when this
 
 Depending on the Unreal version, it is also possible that you need to generate a visual studio project, if you are working on a Blueprint project.
 
-Finally, after packaging the project, you will need to create a new folder called Plugins on the Your_BuildRootDirectory > Your_Project folder, and paste there the HISPlayer folder plugin (similar to the Import Package step)
+Finally, after packaging the project, you will need to create a new folder called Plugins inside **Your_BuildRootDirectory > Your_ProjectName** folder, and paste there the HISPlayer folder plugin (similar to the Import Package step)
 
 <p align="center">
 <img src="./images/Build.png">
