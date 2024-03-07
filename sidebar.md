@@ -1,5 +1,6 @@
 - [HISPlayer Unreal Windows SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
 - [HISPlayer API](/hisplayer-api.md)
+- [Playing Local FIles](/local-files.md)
 - [Update the SDK](/update-the-sdk.md)
 - [Releases](/releases.md)
