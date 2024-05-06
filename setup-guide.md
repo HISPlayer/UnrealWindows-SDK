@@ -8,7 +8,8 @@ First, extract the SDK from the .zip file, copy the **HISPlayer** folder and pas
 <img src="./images/root-dir.png">
 </p>
 
-Then, go into the HISPlayer directory and check that the engine version in your **HISPlayer.uplugin** file is the same as your project’s Unreal version.
+Then, go into the HISPlayer directory and check that the engine version in your **HISPlayer.uplugin** file is the same as your project’s Unreal version. 
+The "Engine Version" field will only take into account the major and middle version number (For example, if you are using UE 5.3.2, just add 5.3.0 to that field).
 
 <p align="center">
 <img src="./images/uplugin-file.png">
