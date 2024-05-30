@@ -14,6 +14,7 @@ It is fully customizable. If you require specific or advanced features, please d
 
 Only official Unreal versions from Epic Games Store are supported. Custom source code version is not supported.
 
+If you need other Unreal version support, please contact us at contact@hisplayer.com.
 ### Supported Stream Protocols: 
   * HLS (Live & VOD)
   * DASH (VOD)
