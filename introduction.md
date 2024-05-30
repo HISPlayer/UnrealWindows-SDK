@@ -10,6 +10,7 @@ It is fully customizable. If you require specific or advanced features, please d
   * 5.1
   * 5.2
   * 5.3
+  * 5.4
 
 Only official Unreal versions from Epic Games Store are supported. Custom source code version is not supported.
 
