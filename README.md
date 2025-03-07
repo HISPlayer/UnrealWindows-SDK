@@ -11,8 +11,9 @@ HlSPlayer is the most advanced Unreal Engine Media Player for Windows, supportin
 >
 > Need to convert your videos into HLS and DASH streaming formats for multi-platform delivery at scale? HISPlayer includes now the option to upload and host your videos that can be played inside your Unreal projects. **[Start your FREE trial here!](https://dashboard.hisplayer.com/signup)**
 >
->The following video shows how it works:
-> * **[How to upload video from HISPlayer Dashboard](https://www.youtube.com/watch?v=awfN0zz-8zQ)**
+>**[Download FREE Unreal Engine Media Player Here](https://github.com/HISPlayer/Unreal_Engine_Media_Player/releases/tag/v2.9.0.1)**
+>
+>Watch a tutorial **[HERE](https://www.youtube.com/watch?v=awfN0zz-8zQ)**
 >
 > We can help you with the full **end-to-end** delivery and playback.
 
