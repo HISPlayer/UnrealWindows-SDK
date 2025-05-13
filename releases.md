@@ -1,9 +1,9 @@
 # HISPlayer Unreal Windows SDK Release Notes
 
-### Version 2.9.0
-##### February 4, 2025
+### Version 2.7.0
+##### May 31, 2024
 The Windows SDK is moved to multiplatform HISPlayerSDK (Android, iOS, macOS, Windows).
-Starting from version 2.9.0, the Windows SDK is part of multiplatform SDK.
+Starting from version 2.7.0, the Windows SDK is part of multiplatform SDK.
 
 ### Version 1.10.0 
 ##### May 21, 2023
