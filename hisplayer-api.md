@@ -125,10 +125,25 @@ Create a new texture of a new resolution for a particular stream.
   * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
   * **Param3**: Result texture reference.
 
-#### static int GetPlaybackPosition(int streamIndex) // HISPlayer Get Playback Position
+#### static int GetPlaybackPosition(int streamIndex) // HISPlayer Get Playback Position (V1.10.0 and below)
 Get the current stream playback position in miliseconds.
   * **Param1**: Stream index.
   * **Return**: Playback position.
+
+#### static int GetCurrentPosition(int streamIndex) // HISPlayer GetCurrentPosition (v2.7.0 and above)
+Returns the current time position of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
+
+#### static int GetTotalPlaybackTime(int streamIndex) // HISPlayer Get Total Playback Time (v1.10.0 and below)
+The stream's total playback time.
+  * **Param1**: Stream index.
+  * **Return**: Total Playback Time.
+
+#### static int GetTotalTime(int streamIndex) // HISPlayer GetTotalTime (v2.7.0 and above)
+Returns the total time of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
 
 #### static void EnableRendering(int streamIndex, bool enable) // HISPlayer Enable Render on Stream
 Use this function to enable or disable the rendering of one stream. The audio will keep playing. Can be used in single or multistream to disable the stream rendering when the stream visuals are not in the visual field of the player, in order to improve performance.
@@ -173,9 +188,4 @@ Stops the PCM data retrieval process. Please use this function before releasing.
 #### static void SetLogLevel(HISPlayerLogLevel logLevel) // HISPlayer Set Log Level
 Set the current Log Level.
   * **Param1**: Log level.
-
-#### static int GetTotalPlaybackTime(int streamIndex) // HISPlayer Get Total Playback Time
-The stream's total playback time.
-  * **Param1**: Stream index.
-  * **Return**: Total Playback Time.
 
