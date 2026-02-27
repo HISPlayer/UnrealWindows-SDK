@@ -21,7 +21,7 @@ To configure it:
 4. Enter the full absolute file path into the **Stream URL** field.
 
 <p align="center">
-<img src="https://github.com/HISPlayer/UnrealWindows-SDK/assets/32887298/2adbb965-c15b-42ed-937a-81c374b41a58">
+<img width="956" height="675" alt="image" src="https://github.com/user-attachments/assets/ec6fa0c0-4f52-44ba-9d62-9fe9349bff60" />
 </p>
 
 ---
@@ -56,6 +56,10 @@ In the **Stream URL** field of **BP_HISPlayer**, enter the path relative to the 
 Example: Movies/movie.mp4
 
 Do not include `Content/` in the path.
+
+<p align="center">
+<img width="955" height="674" alt="image" src="https://github.com/user-attachments/assets/2844dcce-b1ba-4304-81b1-cb02fc8a53a2" />
+</p>
 
 ---
 
