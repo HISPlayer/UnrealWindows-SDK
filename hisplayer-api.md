@@ -146,6 +146,21 @@ Returns the total time of the current track.
   * **Param1**: Stream index.
   * **Return**: Returns the current time position of the current track in miliseconds.
 
+#### static int GetCurrentPosition(int streamIndex) // HISPlayer GetCurrentPosition (v2.7.0 and above)
+Returns the current time position of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
+
+#### static int GetTotalPlaybackTime(int streamIndex) // HISPlayer Get Total Playback Time (v1.10.0 and below)
+The stream's total playback time.
+  * **Param1**: Stream index.
+  * **Return**: Total Playback Time.
+
+#### static int GetTotalTime(int streamIndex) // HISPlayer GetTotalTime (v2.7.0 and above)
+Returns the total time of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
+
 #### static void EnableRendering(int streamIndex, bool enable) // HISPlayer Enable Render on Stream
 Use this function to enable or disable the rendering of one stream. The audio will keep playing. Can be used in single or multistream to disable the stream rendering when the stream visuals are not in the visual field of the player, in order to improve performance.
   * **Param1**: Stream index.
@@ -161,7 +176,7 @@ Get the current playback speed rate.
   * **Param1**: Stream index.
   * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback...etc).
 
-#### static TArray\<int> GetAvailablePlaybackBitrates(int streamIndex) // HISPlayer HISPlayer Get Available Playback Bitrates
+#### static TArray\<int> GetAvailablePlaybackBitrates(int streamIndex) // HISPlayer Get Available Playback Bitrates
 Get Available Playback Bitrates.
   * **Param1**: Stream index.
   * **Return**: Available Playback Bitrates in type of TArray\<int>.
@@ -171,7 +186,7 @@ Get the Delegate Manager.
   * **Param1**: Stream index.
   * **Return**: Delegate manager reference.
 
-#### static int SetVolume(int streamIndex, float volume) // HISPlayer HISPlayer Set Volume
+#### static int SetVolume(int streamIndex, float volume) // HISPlayer Set Volume
 Set Playback Volume.
   * **Param1**: Stream index.
   * **Param2**: Must be included in the range [0.0f, 1.0f].
