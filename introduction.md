@@ -1,25 +1,27 @@
 # HISPlayer Unreal Windows SDK
-The most advanced video streaming player for Unreal Engine supporting local, VOD and Live contents. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Windows.
-It is fully customizable. If you require specific or advanced features, please don't hesitate to contact us at [contact@hisplayer.com](mailto:contact@hisplayer.com).
+The most advanced video streaming player for Unreal Engine supporting supporting local files, VOD, and live streaming. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Windows.
+Fully customizable and extensible to fit advanced streaming requirements. If you require specific or advanced features, please don't hesitate to contact us at [contact@hisplayer.com](mailto:contact@hisplayer.com).
 
 
 ## Compatibility
 ### Supported Unreal Versions : 
-  * 4.27
-  * 5.0
-  * 5.1
-  * 5.2
-  * 5.3
-  * 5.4
+  * [Deprecated] 4.27
+  * [Deprecated] 5.0
+  * [Deprecated] 5.1
+  * [Deprecated] 5.2
+  * [Deprecated] 5.3
+  * [Deprecated] 5.4
   * 5.5
+  * 5.6
+  * 5.7
 
-Only official Unreal versions from Epic Games Store are supported. Custom source code version is not supported.
+Only official Unreal Engine versions distributed through the Epic Games Launcher are supported. Custom source builds are not supported.
 
 If you need other Unreal version support, please contact us at contact@hisplayer.com.
 ### Supported Stream Protocols: 
   * HLS (Live & VOD)
   * DASH (VOD)
-    * Profile : `urn:mpeg:dash:profile:isoff-on-demand:2011`
+    * Profile: `urn:mpeg:dash:profile:isoff-on-demand:2011`
 
 ### Supported Audio Codecs:
   * AAC
@@ -28,10 +30,9 @@ If you need other Unreal version support, please contact us at contact@hisplayer
   * H.264
   * H.265 / HEVC
     * [MS HEVC codec extension](https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7) is required.
-    * Only support stream with fMP4 container. MPEG-2 TS container is not supported.
+    * Only streams using the fMP4 container are supported. MPEG-2 TS is not supported.
 
 ### Supported Audio Formats:
-  * AVI
   * MP3
   * WAV
 
@@ -39,7 +40,7 @@ If you need other Unreal version support, please contact us at contact@hisplayer
   * MP4
   * AVI
 
-### Supported Unreal’s Rendering Mode: 
+### Supported Unreal Rendering Modes:
   * Texture
   * UMG UI
 
@@ -51,7 +52,7 @@ If you need other Unreal version support, please contact us at contact@hisplayer
   * 8,192 × 4,320 (8K)
     * H.265/HEVC codec is required to play 8K video.
 
-## Unreal 5 for Windows Requirements:
+## Unreal Engine 5 – Windows Requirements
   * Visual Studio 2019 v16.11.5, Visual Studio 2022
   * Windows SDK 10.0.18362
   * LLVM clang 13.0.1
