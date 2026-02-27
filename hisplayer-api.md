@@ -75,6 +75,7 @@ Get the current playback properties.
 #### static int OpenPlayer(int streamIndex, const FString& url) // HISPlayer Open Player
 Start HISPlayer. A valid URL must be passed as parameter.
   * **Param1**: Stream index.
+  * **Param2**: Video URL.
   * **Return**: 0 on success.
 
 #### static void Update(int streamIndex) // HISPlayer Update
@@ -107,6 +108,16 @@ Get the current player status.
   * **Param1**: Stream index.
   * **Return**: Stream status as a HISPlayerStatus type.
 
+#### static int GetVideoHeight(int streamIndex) // HISPlayer Get Video Height
+Get the height of the current track of a certain stream. *(SDK v2.3.0 and above)*
+  * **Param1**: Stream index.
+  * **Return**: Video height.
+
+#### static int GetVideoWidth(int streamIndex) // HISPlayer Get Video Width
+Get the width of the current track of a certain stream. *(SDK v2.3.0 and above)*
+  * **Param1**: Stream index.
+  * **Return**: Video width.
+
 #### static bool SetLooping(int streamIndex, bool looping) // HISPlayer Set Looping
 Enable or disable looping.
   * **Param1**: Stream index.
@@ -125,10 +136,15 @@ Create a new texture of a new resolution for a particular stream.
   * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
   * **Param3**: Result texture reference.
 
-#### static int GetPlaybackPosition(int streamIndex) // HISPlayer Get Playback Position (V1.10.0 and below)
-Get the current stream playback position in miliseconds.
+#### static int GetCurrentPosition(int streamIndex) // HISPlayer GetCurrentPosition
+Returns the current time position of the current track.
   * **Param1**: Stream index.
-  * **Return**: Playback position.
+  * **Return**: Returns the current time position of the current track in miliseconds.
+
+#### static int GetTotalTime(int streamIndex) // HISPlayer GetTotalTime
+Returns the total time of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
 
 #### static int GetCurrentPosition(int streamIndex) // HISPlayer GetCurrentPosition (v2.7.0 and above)
 Returns the current time position of the current track.
@@ -165,7 +181,7 @@ Get Available Playback Bitrates.
   * **Param1**: Stream index.
   * **Return**: Available Playback Bitrates in type of TArray\<int>.
 
-#### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
+#### static UDelegateManager* GetDelegateManager(int streamIndex) // HISPlayer Get Delegate Manager
 Get the Delegate Manager.
   * **Param1**: Stream index.
   * **Return**: Delegate manager reference.
@@ -188,4 +204,3 @@ Stops the PCM data retrieval process. Please use this function before releasing.
 #### static void SetLogLevel(HISPlayerLogLevel logLevel) // HISPlayer Set Log Level
 Set the current Log Level.
   * **Param1**: Log level.
-
