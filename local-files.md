@@ -15,7 +15,7 @@ Example: C:/Users/YourUser/Videos/movie.mp4
 
 To configure it:
 
-1. Select **HISPlayer_Blueprint** in the Level Outliner.  
+1. Select **BP_HISPlayer** in the Level Outliner.  
 2. Open the **Details** panel.  
 3. Locate the **HISPlayer** section.  
 4. Enter the full absolute file path into the **Stream URL** field.
@@ -51,7 +51,7 @@ Example: Content/Movies/movie.mp4
 
 ### Step 3 – Set the Relative Path
 
-In the **Stream URL** field of **HISPlayer_Blueprint**, enter the path relative to the `Content` folder.
+In the **Stream URL** field of **BP_HISPlayer**, enter the path relative to the `Content` folder.
 
 Example: Movies/movie.mp4
 
