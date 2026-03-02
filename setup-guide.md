@@ -9,16 +9,16 @@ First, extract the SDK from the .zip file, copy the **HISPlayer** folder and pas
 </p>
 
 Then, go into the HISPlayer directory and check that the engine version in your **HISPlayer.uplugin** file is the same as your project’s Unreal version. 
-The "Engine Version" field will only take into account the major and middle version number (For example, if you are using UE 5.3.2, just add 5.3.0 to that field).
+The "Engine Version" field will only take into account the major and middle version number (For example, if you are using UE 5.5.4, just add 5.5.0 to that field).
 
 <p align="center">
-<img src="./images/uplugin-file.png">
+<img width="300" height="39" alt="image" src="https://github.com/user-attachments/assets/99731622-62ef-423c-8875-9aff98f5de60" />
 </p>
 
 Open your project and go into Edit > Plugins, look for the HISPlayer plugin and if it’s disabled, enable it and restart the project.
 
 <p align="center">
-<img src="./images/hisplayer-plugin.png">
+<img width="933" height="121" alt="image" src="https://github.com/user-attachments/assets/ac60e0a0-0625-45ed-9ae0-067ef31b63d3" />
 </p>
 
 ## Set Default Build Settings Version
@@ -28,10 +28,11 @@ It is preferable to use the HISPlayer SDK in a C++ project, rather than in an on
 <img src="./images/CreateScript.png">
 </p>
 
-For UE versions 5.0, 5.1, 5.2 and 5.3 it is necessary to set the DefaultBuildSettings to BuildSettingsVersion.V2. In order to do so, please add the line `DefaultBuildSettings = BuildSettingsVersion.V2;` in the `"YourProjectName".Target.cs` and `"YourProjectName"Editor.Target.cs` scripts, located in the `Source` directory: 
+Make sure that the "YourProjectName".Target.cs and "YourProjectName"Editor.Target.cs scripts located in the Source directory have the following setup:
 
 <p align="center">
-<img src="./images/TargetSettings.png">
+<img width="673" height="535" alt="image" src="https://github.com/user-attachments/assets/a57357b2-2aff-43f5-8c53-4bcbc87ef90f" />
+<img width="683" height="552" alt="image" src="https://github.com/user-attachments/assets/a13086a7-5196-438e-9f5b-d643340383df" />
 </p>
 
 The HISPlayerSample and HISPlayerVRSample are C++ projects which already include this lines of code so, in case you are using them, you can skip to the next section.
