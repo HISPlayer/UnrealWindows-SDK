@@ -1,9 +1,74 @@
 # Playing Local Files
 
-HISPlayer Windows for Unreal can play local content using the absolute path. For example : **C:/yourVideo.mp4** . 
+HISPlayer Windows for Unreal supports playback of local video content using:
 
-Select the **HISPlayer_Blueprint** in the level outliner, go to the **Details** window and inside the **HISPlayer** section you can find the variable **Stream URL** that you will be able to customize. Please input the absolute path where the video file is located into the **Stream URL** field.
+- **Absolute file paths** (from your Windows machine)  
+- **Project-relative paths** (from your Unreal project's `Content` folder)
+
+---
+
+## Using Absolute Paths (PC Storage)
+
+You can load video files directly from your Windows machine using the full absolute path.
+
+Example: C:/Users/YourUser/Videos/movie.mp4
+
+To configure it:
+
+1. Select **BP_HISPlayer** in the Level Outliner.  
+2. Open the **Details** panel.  
+3. Locate the **HISPlayer** section.  
+4. Enter the full absolute file path into the **Stream URL** field.
 
 <p align="center">
-<img src="https://github.com/HISPlayer/UnrealWindows-SDK/assets/32887298/2adbb965-c15b-42ed-937a-81c374b41a58">
+<img width="800" height="125" alt="image" src="https://github.com/user-attachments/assets/ff236f88-4756-4143-b6db-228c668c0ff8" />
 </p>
+
+---
+
+## Using Project-Relative Paths (Content Folder)
+
+You can also play video files stored inside your Unreal project.
+
+### Step 1 – Create the Movies Folder
+
+Inside your Unreal project:
+
+1. Navigate to the main **Content** folder.  
+2. Create a directory named: Movies
+
+---
+
+### Step 2 – Add the Video File
+
+Place your video file inside: Content/Movies/
+
+Example: Content/Movies/movie.mp4
+
+To create the .uasset that Unreal can use, you must drag and drop the .mp4 video file into the Unreal Editor's Movies folder. Simply placing the file in the project directory is not enough. This ensures that Unreal generates the necessary .uasset for the engine to recognize the video.
+
+<p align="center">
+<img width="1145" height="340" alt="image" src="https://github.com/user-attachments/assets/c80200bb-7454-4266-957f-d7766e92bad1" />
+</p>
+
+---
+
+### Step 3 – Set the Relative Path
+
+In the **Stream URL** field of **BP_HISPlayer**, enter the path relative to the `Content` folder.
+
+Example: Movies/movie.mp4
+
+Do not include `Content/` in the path.
+
+<p align="center">
+<img width="734" height="123" alt="image" src="https://github.com/user-attachments/assets/2a46c2c8-3d00-4ad8-8790-56d156085441" />
+</p>
+
+---
+
+## Notes
+
+- Forward slashes `/` should be used in paths.  
+- Ensure the video format is supported (e.g., MP4, AVI).  
+- If the video does not play, verify that the file exists physically inside the project directory.
