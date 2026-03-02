@@ -1,17 +1,17 @@
 # Playing Local Files
 
-HISPlayer Windows for Unreal supports playback of local video content using:
+HISPlayer macOS for Unreal supports playback of local video content using:
 
-- **Absolute file paths** (from your Windows machine)  
+- **Absolute file paths** (from your Mac)
 - **Project-relative paths** (from your Unreal project's `Content` folder)
 
 ---
 
-## Using Absolute Paths (PC Storage)
+## Using Absolute Paths (Mac Storage)
 
-You can load video files directly from your Windows machine using the full absolute path.
+You can load video files directly from your Mac using the full absolute path.
 
-Example: C:/Users/YourUser/Videos/movie.mp4
+Example: /Users/YourUser/Desktop/Videos/movie.mp4
 
 To configure it:
 
@@ -21,7 +21,7 @@ To configure it:
 4. Enter the full absolute file path into the **Stream URL** field.
 
 <p align="center">
-<img width="956" height="675" alt="image" src="https://github.com/user-attachments/assets/ec6fa0c0-4f52-44ba-9d62-9fe9349bff60" />
+<img src="./images/local-content.png">
 </p>
 
 ---
@@ -37,6 +37,10 @@ Inside your Unreal project:
 1. Navigate to the main **Content** folder.  
 2. Create a directory named: Movies
 
+<p align="center">
+<img src="./images/movies.png">
+</p>
+
 ---
 
 ### Step 2 – Add the Video File
@@ -45,7 +49,11 @@ Place your video file inside: Content/Movies/
 
 Example: Content/Movies/movie.mp4
 
-> ⚠ Important: To create the `.uasset` that Unreal can use, you must **drag and drop the .mp4 video file into the Unreal Editor's Movies folder**. Simply placing the file in the project directory is **not enough**. This ensures that Unreal generates the necessary `.uasset` for the engine to recognize the video.  
+> ⚠ Important: To create the `.uasset` that Unreal can use, you must **drag and drop the .mp4 video file into the Unreal Editor's Movies folder**. Simply placing the file in the project directory is **not enough**. This ensures that Unreal generates the necessary `.uasset` for the engine to recognize the video.
+
+<p align="center">
+<img src="./images/moviesmp4.png">
+</p>
 
 ---
 
@@ -58,13 +66,14 @@ Example: Movies/movie.mp4
 Do not include `Content/` in the path.
 
 <p align="center">
-<img width="955" height="674" alt="image" src="https://github.com/user-attachments/assets/2844dcce-b1ba-4304-81b1-cb02fc8a53a2" />
+<img src="./images/moviesfolder.png">
 </p>
 
 ---
 
 ## Notes
 
-- Forward slashes `/` should be used in paths.  
+- Forward slashes `/` must be used in paths.  
 - Ensure the video format is supported (e.g., MP4, AVI).  
-- If the video does not play, verify that the file exists physically inside the project directory.
+- If the video does not play, verify that the file exists physically inside the project directory.  
+- Absolute paths on macOS typically start with `/Users/YourUser/...`.
