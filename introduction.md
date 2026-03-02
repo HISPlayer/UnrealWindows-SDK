@@ -19,22 +19,22 @@ If you need other Unreal version support, please contact us at contact@hisplayer
   * DASH (VOD)
     * Profile: `urn:mpeg:dash:profile:isoff-on-demand:2011`
 
-### Supported Audio Codecs:
-  * AAC
-
 ### Supported Video Codecs:
   * H.264
   * H.265 / HEVC
     * [MS HEVC codec extension](https://apps.microsoft.com/store/detail/hevc-video-extensions/9NMZLZ57R3T7) is required.
     * Only streams using the fMP4 container are supported. MPEG-2 TS is not supported.
 
-### Supported Audio Formats:
-  * MP3
-  * WAV
-
 ### Supported Video Formats:
   * MP4
   * AVI
+
+### Supported Audio Codecs:
+  * AAC
+
+### Supported Audio Formats:
+  * MP3
+  * WAV
 
 ### Supported Unreal Rendering Modes:
   * Texture
