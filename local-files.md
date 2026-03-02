@@ -21,7 +21,7 @@ To configure it:
 4. Enter the full absolute file path into the **Stream URL** field.
 
 <p align="center">
-<img src="https://github.com/HISPlayer/UnrealWindows-SDK/assets/32887298/2adbb965-c15b-42ed-937a-81c374b41a58">
+<img width="737" height="127" alt="image" src="https://github.com/user-attachments/assets/d245a4d3-5e18-4949-b225-6a4301a09f0e" />
 </p>
 
 ---
@@ -45,7 +45,11 @@ Place your video file inside: Content/Movies/
 
 Example: Content/Movies/movie.mp4
 
-> ⚠ It is important that the actual video file exists inside the `Content/Movies` folder. The `.uasset` file alone is not sufficient.
+It is important that the actual video file exists inside the `Content/Movies` folder. The `.uasset` file alone is not sufficient.
+
+<p align="center">
+<img width="1145" height="340" alt="image" src="https://github.com/user-attachments/assets/c80200bb-7454-4266-957f-d7766e92bad1" />
+</p>
 
 ---
 
@@ -54,6 +58,10 @@ Example: Content/Movies/movie.mp4
 In the **Stream URL** field of **BP_HISPlayer**, enter the path relative to the `Content` folder.
 
 Example: Movies/movie.mp4
+
+<p align="center">
+<img width="734" height="123" alt="image" src="https://github.com/user-attachments/assets/2a46c2c8-3d00-4ad8-8790-56d156085441" />
+</p>
 
 Do not include `Content/` in the path.
 
