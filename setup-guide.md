@@ -77,7 +77,12 @@ You can modify the behavior of the **BP_HISPlayer** as desired or use a custom b
 Use the **HISPlayer API** to add your own implementation.
 
 ## License Key
-Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message. To find this field, go to the Level Outliner and look for the HISPlayer_Blueprint actor. Then, on the Details window, look for the HISPlayer section.
+
+Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message.
+
+To find this field, go to the Level Outliner and look for the **BP_HISPlayer** actor. Then, in the **Details** window, locate the **HISPlayer** section.
+
+> Note: If you are using the FAB marketplace package, entering a license key is not required.
 
 <p align="center">
 <img src="./images/licensekey.png">
