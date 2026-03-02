@@ -35,10 +35,8 @@ Make sure that the "YourProjectName".Target.cs and "YourProjectName"Editor.Targe
 <img width="683" height="552" alt="image" src="https://github.com/user-attachments/assets/a13086a7-5196-438e-9f5b-d643340383df" />
 </p>
 
-The HISPlayerSample and HISPlayerVRSample are C++ projects which already include this lines of code so, in case you are using them, you can skip to the next section.
-
-## Import HISPlayer_Blueprint
-To use HISPlayer’s functionalities in your Level, you need to add the **HISPlayer_Blueprint**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
+## Import BP_HISPlayer
+To use HISPlayer’s functionalities in your Level, you need to add the **BP_HISPlayer**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
 
 <p align="center">
 <img src="./images/browser-structure.png">
@@ -50,27 +48,27 @@ If you can’t find the **HISPlayer Content directory** in the Content Browser, 
 <img src="./images/show-content.png">
 </p>
 
-Add the **HISPlayer_Blueprint**.
+Add the **BP_HISPlayer**.
 
 <p align="center">
-<img src="./images/insert-blueprint.png">
+<img width="1820" height="709" alt="image" src="https://github.com/user-attachments/assets/e6ab4108-7e0c-4a2b-85bb-fc27af38c8e4" />
 </p>
 
-To render the content, you need to set an actor with **HISPlayer_Material** as Material.
+To render the content, you need to set an actor with **M_HISPlayerMat** as Material.
 
 <p align="center">
-<img src="./images/add-actor.png">
+<img width="1824" height="710" alt="image" src="https://github.com/user-attachments/assets/8ddc98d7-77d1-484d-91a0-dfe1a546a54a" />
 </p>
 
 ## Configure HISPlayer multistream properties
-Set the player’s parameters as desired in your **HISPlayer_Blueprint** actor for single stream and multistream.
-It is possible to add more than one stream using one instance of the **HISPlayer_Blueprint**, by adding more elements to the Stream URL and Target Actors arrays.
+Set the player’s parameters as desired in your **BP_HISPlayer** actor for single stream and multistream.
+It is possible to add more than one stream using one instance of the **BP_HISPlayer**, by adding more elements to the Stream URL and Target Actors arrays.
 
 <p align="center">
 <img src="./images/playback-props.png">
 </p>
 
-You can modify the behavior of the **HISPlayer_Blueprint** as desired or use a custom blueprint, as long as it follows the original structure.
+You can modify the behavior of the **BP_HISPlayer** as desired or use a custom blueprint, as long as it follows the original structure.
 
 <p align="center">
 <img src="./images/graphic.png">
