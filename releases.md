@@ -1,13 +1,13 @@
 # HISPlayer Unreal Windows SDK Release Notes
 ### Version 2.10.0
 ##### February 26, 2026
-- [Added] Support for Unreal Engine 5.6 and 5.7.
-- [Improvement] Updated plugin content elements naming to following Unreal Engine naming conventions
-- [Added] Support for local videos using project-relative paths
+- [**Added**] Support for Unreal Engine 5.6 and 5.7.
+- [**Improvement**] Updated plugin content elements naming to following Unreal Engine naming conventions
+- [**Added**] Support for local videos using project-relative paths
 
 ### Version 2.9.0
 ##### February 4, 2025
-- [Added] SetPlaybackRate and GetPlaybackRate APIs to control the current playback speed
+- [**Added**] SetPlaybackRate and GetPlaybackRate APIs to control the current playback speed
 
 ### Version 2.7.0
 ##### May 31, 2024
