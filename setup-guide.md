@@ -85,7 +85,7 @@ To find this field, go to the Level Outliner and look for the **BP_HISPlayer** a
 > Note: If you are using the FAB marketplace package, entering a license key is not required.
 
 <p align="center">
-<img width="844" height="677" alt="image" src="https://github.com/user-attachments/assets/bedfe5b7-bd66-43ca-9821-713b74759317" />
+<img width="849" height="681" alt="image" src="https://github.com/user-attachments/assets/74e9097f-4ab4-41f9-adf0-570e11995b91" />
 </p>
 
 ## Disable Anti-Aliasing
