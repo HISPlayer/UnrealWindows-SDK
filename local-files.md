@@ -59,11 +59,11 @@ In the **Stream URL** field of **BP_HISPlayer**, enter the path relative to the 
 
 Example: Movies/movie.mp4
 
+Do not include `Content/` in the path.
+
 <p align="center">
 <img width="734" height="123" alt="image" src="https://github.com/user-attachments/assets/2a46c2c8-3d00-4ad8-8790-56d156085441" />
 </p>
-
-Do not include `Content/` in the path.
 
 ---
 
