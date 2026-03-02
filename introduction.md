@@ -4,7 +4,7 @@ Fully customizable and extensible to fit advanced streaming requirements. If you
 
 
 ## Compatibility
-### Supported Unreal Versions : 
+### Supported Unreal Versions: 
   * [Deprecated] 4.27 - 5.4
   * 5.5
   * 5.6
