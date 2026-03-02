@@ -45,7 +45,7 @@ Place your video file inside: Content/Movies/
 
 Example: Content/Movies/movie.mp4
 
-It is important that the actual video file exists inside the `Content/Movies` folder. The `.uasset` file alone is not sufficient.
+To create the .uasset that Unreal can use, you must drag and drop the .mp4 video file into the Unreal Editor's Movies folder. Simply placing the file in the project directory is not enough. This ensures that Unreal generates the necessary .uasset for the engine to recognize the video.
 
 <p align="center">
 <img width="1145" height="340" alt="image" src="https://github.com/user-attachments/assets/c80200bb-7454-4266-957f-d7766e92bad1" />
