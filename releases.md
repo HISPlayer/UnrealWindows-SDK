@@ -3,6 +3,7 @@
 ##### February 26, 2026
 - [Added] Support for Unreal Engine 5.6 and 5.7.
 - [Improvement] Updated plugin content elements naming to following Unreal Engine naming conventions
+- [Added] Support for local videos using project-relative paths
 
 ### Version 2.9.0
 ##### February 4, 2025
