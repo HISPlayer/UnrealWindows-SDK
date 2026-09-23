@@ -78,6 +78,11 @@ Start HISPlayer. A valid URL must be passed as parameter.
   * **Param2**: Video URL.
   * **Return**: 0 on success.
 
+#### static void ChangeVideoContent(int streamIndex, const FString& url) // HISPlayer Change Video Content
+Change current video. A valid URL must be passed as parameter.
+  * **Param1**: Stream index.
+  * **Param2**: New video URL.
+
 #### static void Update(int streamIndex) // HISPlayer Update
 Update each frame, needs to be called every frame.
   * **Param1**: Stream index.
