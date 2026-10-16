@@ -174,12 +174,6 @@ You can update this file manually, or by clicking on the Update button when this
 
 Depending on the Unreal version, it is also possible that you need to generate a visual studio project, if you are working on a Blueprint project.
 
-Finally, after packaging the project, you will need to create a new folder called Plugins inside **Your_BuildRootDirectory > Your_ProjectName** folder, and paste there the HISPlayer folder plugin (similar to the Import Package step)
-
-<p align="center">
-<img src="./images/Build.png">
-</p>
-
 ## Setting up PCM Audio Data
 It is possible to retrieve the PCM data of a stream at runtime. To start the retrieval process, call the **HISPlayer Start PCM Data Process** function. To stop the process, call the **HISPlayer Stop PCM Data Process**. It is important to stop the process before releasing the player. 
 
